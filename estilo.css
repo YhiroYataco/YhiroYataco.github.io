@@ -1,0 +1,83 @@
+.bodyinicio{
+background-color: bisque;
+}
+.main-header{
+    background-color:rgb(53, 46, 161);
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.nav-link{
+    color:white;
+    margin-right: 4px;
+}
+.text-center{
+    text-align: center;
+}
+.red-text{
+    color:brown;
+}
+.bodymenu{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+    font-family: monospace;
+}
+.lalista{
+    max-width: 1100px;
+    width: 90%;
+    margin: auto;
+}
+.store-wrapper{
+    display: flex;
+}
+.category_list{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.category_list .category_item{
+    display: block;
+    width: 90%;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    background-color: lightcoral;
+
+    text-align: center;
+    text-decoration: none;
+    color: rgb(245, 243, 239);
+}
+
+.category_list .categoria_active{
+background-color: rgb(60, 42, 221);
+}
+
+/* PRODUCTOS */
+
+.products-list{
+    width: 82%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.products-list .product-item{
+    width: 22%;
+    margin-left: 3%;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 6px 0px rgb(219, 95, 188);
+    align-items: center; 
+}
+.products-list .product-item img{
+    width: 100%;
+}
+.products-list .product-item a{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    background: rgb(60, 42, 221);
+
+    color: blanchedalmond;
+    text-align: center;
+    text-decoration: none;
+}
